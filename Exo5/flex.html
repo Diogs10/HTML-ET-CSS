@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zonning</title>
+</head>
+<style>
+    body
+    {
+        display: flex;
+    }
+    .contener
+    {
+        display: flex;
+        flex-direction:column;
+        border: solid 2px black;
+    }
+
+
+
+
+    .contener > div:nth-child(1)
+    {
+        display:flex;
+        flex-basis: 8em;
+        border: solid 2px red;
+        flex-direction: column;
+    /* justify-content: space-between;*/
+        align-items: center;
+    }
+
+    .contener > div:nth-child(2)
+    {
+        flex-basis: 32em;
+        border: solid 2px green;
+    }
+
+
+    .contener > div:nth-child(3)
+    {
+        flex-basis: 8em;
+        border: solid 2px navy;
+
+    }
+    /* fils du fils 1*/
+
+    .contener > div:nth-child(1) > div:nth-child(1)
+    {
+        flex-basis: 3em;
+        display:flex;
+        justify-content: space-between;
+        width: 97%;
+        
+        
+
+    
+        
+        
+        
+    }
+
+    .contener > div:nth-child(1) > div:nth-child(2)
+    {
+        flex-basis: 5em;
+        border: solid 2px orangered;
+        width: 97%;
+    
+        
+        
+
+    }
+
+
+    .contener > div:nth-child(1) > div:nth-child(1)  > div:nth-child(1)
+    {
+        flex-basis: 5em;
+        border: solid 2px orangered;;
+    }
+
+    .contener > div:nth-child(1) > div:nth-child(1)  > div:nth-child(2)
+    {
+        flex-basis: 15em;
+        border: solid 2px orangered;;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    
+
+
+    }
+
+    .contener > div:nth-child(1) > div:nth-child(1)  > div:nth-child(2) > div:nth-child(1), .contener > div:nth-child(1) > div:nth-child(1)  > div:nth-child(2) > div:nth-child(2), .contener > div:nth-child(1) > div:nth-child(1)  > div:nth-child(2) > div:nth-child(3)
+    {
+        flex-basis: 7em;
+        border: solid 2px orangered;
+    
+        
+    }
+
+
+    .contener > div:nth-child(3)
+    {
+        flex-basis: 5em;
+        flex-direction: row;
+        display:flex;
+        justify-content: space-around;
+        
+        
+
+    }
+
+
+    .contener > div:nth-child(3)> div:nth-child(1)
+    {
+        flex-basis: 85em;
+        display: flex;
+        border: solid 2px yellow;
+        justify-content: space-between;
+    
+
+    }
+
+    .contener > div:nth-child(3) > div:nth-child(1)> div:nth-child(1)
+    {
+        flex-basis: 20em;
+        border: 2px solid;
+        width: 10%;
+
+    }
+
+    .contener > div:nth-child(3) > div:nth-child(1)> div:nth-child(2)
+    {
+        flex-basis: 30em;
+        border: 2px solid;
+        width: 10%;
+
+    }
+
+    .contener > div:nth-child(3) > div:nth-child(1)> div:nth-child(2)
+    {
+        flex-basis: 30em;
+        border: solid 2px green;
+        display:flex;
+        justify-content:space-around ;
+        align-items: center;
+    
+    }
+
+    .contener > div:nth-child(3) > div:nth-child(1)> div:nth-child(2) > div:nth-child(1)
+    {
+        flex-basis: 8em;
+        border: solid 2px green;
+    }
+
+
+    .contener > div:nth-child(3) > div:nth-child(1)> div:nth-child(2) > div:nth-child(2)
+    {
+        flex-basis: 8em;
+        border: solid 2px green;
+    }
+    .contener > div:nth-child(3) > div:nth-child(1)> div:nth-child(2) > div:nth-child(3)
+    {
+        flex-basis: 8em;
+        border: solid 2px green;
+    }
+
+
+
+    .contener > div:nth-child(2)
+    {
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .contener > div:nth-child(2) >div:nth-child(1)
+    {
+        border: 2px solid yellow;
+        display:flex;
+        flex-basis: 20em;
+        width: 80em;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    .contener > div:nth-child(2) >div:nth-child(2)
+    {
+        border: 2px solid orange;
+        width: 80em;
+        display: flex;
+        flex-basis: 20em;
+        justify-content: space-around;
+        
+
+    }
+
+
+
+    .contener > div:nth-child(2) >div:nth-child(3)
+    {
+        border: 2px solid ;
+        width: 80em;
+        flex-basis: 10em;
+        display:flex;
+        justify-content: space-around;
+        
+
+
+    }
+
+
+    .contener > div:nth-child(2) >div:nth-child(1) > div:nth-child(1)
+    {
+        border: 2px solid grey;
+        width: 25em;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .contener > div:nth-child(2) >div:nth-child(1) > div:nth-child(2)
+    {
+        border: 2px solid black;
+        width: 40em;
+        
+
+    }
+
+
+    .contener > div:nth-child(2) >div:nth-child(2) >div:nth-child(1)
+    {
+        border: 2px solid;
+        width: 25em;
+    }
+
+    .contener > div:nth-child(2) >div:nth-child(2) >div:nth-child(2)
+    {
+        border: 2px solid blue;
+        width:25em;
+
+    }
+
+    .contener > div:nth-child(2) >div:nth-child(2) >div:nth-child(3)
+    {
+        border: 2px solid navy;
+        width:25em;
+        
+    }
+
+
+    .contener > div:nth-child(2) >div:nth-child(3) > div:nth-child(1)
+    {
+        border:2px solid violet;
+        flex-basis: 20em;
+        width:40em;
+
+    }
+
+
+    .contener > div:nth-child(2) >div:nth-child(3) > div:nth-child(2)
+    {
+        border:2px solid rgb(182, 238, 130);
+        flex-basis: 50em;
+        width: 40em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+
+    }
+
+
+    .contener > div:nth-child(2) >div:nth-child(3) > div:nth-child(2) > div
+    {
+        border: 2px solid red;
+        flex-basis: 6em;
+        width: 40em;
+
+    }
+
+    .contener > div:nth-child(2) >div:nth-child(3) > div:nth-child(2) > div:nth-child(2) 
+    {
+        display:flex;
+        justify-content: space-around;
+        
+    }
+
+    .contener > div:nth-child(2) >div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div
+    {
+        display: flex;
+        border: 2px solid;
+        width: 18em;
+    }
+
+</style>
+<body>
+                <div class="contener">
+                    <div>
+                            <div>
+                                        <div>r</div>
+                                        <div>
+                                            
+                                                    <div>1</div>
+                                                    <div>2</div>
+                                                    <div>3</div>
+                                        
+                                        </div>
+                            </div>
+                            <div></div>
+                    </div>
+                    <div>
+
+                                <div>
+                                                <div>q</div>
+                                                <div>:</div>
+                                </div>
+                                <div>
+                                            <div>z</div>
+                                            <div>E</div>
+                                            <div>P</div>
+                                </div>
+                                <div>
+
+
+
+                                                <div></div>
+                                                <div>
+                                                            <div></div>
+                                                            <div>
+                                                                        <div>first</div>
+                                                                        <div> second</div>
+                                                            </div>
+                                                </div>
+                                </div>
+
+
+
+
+                    </div>
+                    <div>
+
+
+                            
+                               <div>
+                                            <div>w</div>
+                                            <div>
+                                                    <div>z</div>
+                                                    <div>t</div>
+                                                    <div>i</div>
+                                            </div>
+                               </div>
+                    </div>
+                </div>
+</body>
+</html>

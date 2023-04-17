@@ -1,0 +1,228 @@
+.conteneur
+{
+    margin: auto;
+    border:2px solid black;
+    width: 50%;
+    height: 100%;
+}
+.conteneur >div:nth-child(1)
+{
+    border: 2px solid red;
+    width: 97%;
+    height: 21vh;
+    margin: 1%;
+}
+.conteneur >div:nth-child(1) >div:nth-child(1)
+{
+    display: flex;
+}
+.conteneur >div:nth-child(1) >div:nth-child(1) >div:nth-child(1)
+{
+    border: 1px solid salmon;
+    width: 10%;
+    height: 8vh;
+    margin: 1%;
+}
+.conteneur >div:nth-child(1) >div:nth-child(1) >div:nth-child(2)
+{
+    border: 1px solid salmon;
+    width: 25%;
+    height: 8vh;
+    margin: 1%;
+    margin-left: 59%;
+    display: flex;
+    padding-left: 2%;
+    padding-left: 2%;
+}
+.conteneur >div:nth-child(1) >div:nth-child(1) >div:nth-child(2) >div:nth-child(1),.conteneur >div:nth-child(1) >div:nth-child(1) >div:nth-child(2) >div:nth-child(2),.conteneur div:nth-child(1) >div:nth-child(1) >div:nth-child(2) >div:nth-child(3)
+{
+    border: 1px solid salmon;
+    width: 30%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+.conteneur >div:nth-child(1) >div:nth-child(2)
+{
+    border: 1px solid salmon;
+    width: 97%;
+    height: 8vh;
+    margin: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.conteneur >div:nth-child(2)
+{
+    border: 2px solid green;
+    width: 97%;
+    height: 75vh;
+    margin: 1%;   
+}
+.conteneur >div:nth-child(2)>div:nth-child(1)
+{
+    width: 97%;
+    border: 1px solid orange;
+    height: 24%;
+    margin: 1%;
+    display: flex;
+}
+.conteneur >div:nth-child(2)>div:nth-child(1)>div:nth-child(1)
+{
+    width: 37%;
+    border: 1px solid orange;
+    height: 89%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(1)>div:nth-child(2)
+{
+    width: 67%;
+    border: 1px solid orange;
+    height: 89%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(2)
+{
+    width: 97%;
+    border: 1px solid brown;
+    height: 45%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(1)
+{
+    display: flex;
+    height: 45%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(1) > div:nth-child(1),.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)
+{
+    width: 49%;
+    border: 1px solid pink;
+    height: 100%;
+    margin-right: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(2)
+{
+    width: 97%;
+    border: 1px solid pink;
+    height: 45%;
+    margin: 1%;
+    display: flex;
+}
+.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(2) >div:nth-child(1),.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2),.conteneur >div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>div:nth-child(3)
+{
+    width: 31%;
+    border: 1px solid pink;
+    height: 87%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)
+{
+    width: 97%;
+    border: 1px solid purple;
+    height: 24%;
+    margin: 1%;
+    display: flex;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)>div:nth-child(1)
+{
+    width: 33%;
+    border: 1px solid purple;
+    height: 87%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)>div:nth-child(2)
+{
+    width: 70%;
+    height: 87%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>div:nth-child(1)
+{
+    width: 97%;
+    border: 1px solid purple;
+    height: 45%;
+    margin-left: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)
+{
+    display: flex;
+    width: 97%;
+    height: 45%;
+    margin-left: 1%;
+    margin: 1%;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    width: 49%;
+    border: 1px solid purple;
+    height: 100%;
+    margin-right: 5px;
+}
+.conteneur >div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)
+{
+    width: 49%;
+    border: 1px solid purple;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteneur >div:nth-child(3)
+{
+    border: 2px solid blue;
+    width: 97%;
+    height: 8vh;
+    margin: 1%;
+    display: flex;
+}
+.conteneur >div:nth-child(3)> div:nth-child(1)
+{
+    border: 1px solid lightsteelblue;
+    width: 25%;
+    height: 6vh;
+    margin: 1%;
+}
+.conteneur >div:nth-child(3)> div:nth-child(2)
+{
+    border: 1px solid lightsteelblue;
+    width: 25%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 48%;
+    display: flex;
+    padding: 1%;
+}
+.conteneur >div:nth-child(3)> div:nth-child(2)> div:nth-child(1), .conteneur >div:nth-child(3)> div:nth-child(2)> div:nth-child(2),.conteneur >div:nth-child(3)> div:nth-child(2)> div:nth-child(3)
+   
+{
+    border: 1px solid lightsteelblue;
+    width: 30%;
+    height: 80%;
+    margin: 1%;
+}

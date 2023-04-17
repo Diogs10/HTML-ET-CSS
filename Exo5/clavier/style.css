@@ -1,0 +1,75 @@
+body{
+    margin-top: 25%;
+}
+.telephone
+{
+    display:grid;
+    grid-template-rows:repeat(6,30px);
+    grid-template-columns: repeat(174,1px);
+    grid-gap: 3px 3px;
+    background-color: gray;
+    width: 40em;
+    margin: auto;
+}
+.telephone> div
+{
+    grid-column: span 12;
+    background-color: black;
+}
+.telephone> div:nth-child(2)
+{
+    grid-column: span 144;
+}
+.telephone> div:nth-child(3),.telephone> div:nth-child(4)
+{
+    grid-column: span 9;
+}
+
+.telephone> div:nth-child(18),.telephone> div:nth-child(45),.telephone> div:nth-child(19)
+{
+    grid-column: span 18;
+    background-color: red;
+}
+.telephone> div:nth-child(33)
+{
+    grid-column: span 24;
+    background-color: red;
+}
+.telephone> div:nth-child(61),.telephone> div:nth-child(63)
+{
+    grid-column: span 15;
+    background-color: red;
+}
+.telephone> div:nth-child(62)
+{
+    grid-column: span 60;
+    background-color: red;
+}
+.telephone> div:nth-child(46),.telephone> div:nth-child(57)
+{
+    grid-column: span 27;
+    background-color: red;
+}
+.telephone> div
+{
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 50%;
+    box-shadow: 10px 10px 10px white;
+}
+.telephone> div:nth-child(65),.telephone> div:nth-child(67)
+{
+    height: 50%;
+    margin-top: 32%;
+}
+.telephone> div:nth-child(66)>div:nth-child(1)
+{
+    height: 45%;
+    margin-bottom: 1%;
+}
+.telephone> div:nth-child(66)>div:nth-child(2)
+{
+    height: 45%;
+    margin-top: 1%;
+}
